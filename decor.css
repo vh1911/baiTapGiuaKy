@@ -1,0 +1,127 @@
+/* Định dạng chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #eabee6;
+    color: #1d00f9;
+}
+
+h2 {
+    color: #34c7eb;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #22afd6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #dddd82;
+    color: rgb(233, 21, 21);
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Nút */
+button {
+    background-color: #ddd31c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1593a4;
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Định dạng cho form tìm kiếm */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #188fad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #1ca7b4;
+}
